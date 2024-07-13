@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gowrishankar Kadagala's Portfolio</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section with navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero section with welcome message -->
+    <section id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my work and achievements</p>
+    </section>
+    <!-- About section with bio and skills -->
+    <section id="about" class="content-section">
+        <h1>About Me</h1>
+        <p>I am a student at university college of engineering JNTUK, Kakinada. I am currently studying Btech in computer science and engineering 2nd year.</p>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Web Development</li>
+            <li>R</li>
+            <li>Computer Networks</li>
+            <li>Operating Systems</li>
+        </ul>
+    </section>
+    <!-- Portfolio section with project showcases -->
+    <section id="portfolio" class="content-section">
+        <h1>My Portfolio</h1>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Language Translator</h3>
+                <p>Angular project which is a language translator from any language to any language.</p>
+            </div>
+            <div class="project">
+                <h3>Flipping and Turning Cards</h3>
+                <p>Project with flipping and turning cards.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section with a contact form -->
+    <section id="contact" class="content-section">
+        <h1>Contact Me</h1>
+        <form action="mailto:gowri@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Gowrishankar Kadagala</p>
+    </footer>
+    <!-- Link to JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
